@@ -1,0 +1,37 @@
+name: sync-newapi-widget
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run sync
+        env:
+          NEWAPI_API_KEY: ${{ secrets.NEWAPI_API_KEY }}
+          NEWAPI_BASE_URL: ${{ vars.NEWAPI_BASE_URL }}
+          VERIFY_TLS: ${{ vars.VERIFY_TLS }}
+        run: |
+          python scripts/sync.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/widget_data.json
+          git commit -m "update widget data" || echo "no changes"
+          git push
