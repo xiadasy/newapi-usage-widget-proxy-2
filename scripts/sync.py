@@ -1,7 +1,7 @@
 import os, json, datetime, ssl
 import urllib.request
 
-BASE_URL = os.environ.get("NEWAPI_BASE_URL", "https://api.chshapi.cn").rstrip("/")
+BASE_URL = (os.environ.get("NEWAPI_BASE_URL") or "https://api.chshapi.cn").strip().rstrip("/")
 API_KEY = os.environ.get("NEWAPI_API_KEY", "").strip()
 VERIFY_TLS = os.environ.get("VERIFY_TLS", "true").lower() not in ("0", "false", "no")
 
