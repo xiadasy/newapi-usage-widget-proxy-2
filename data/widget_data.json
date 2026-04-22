@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T14:57:26Z",
+  "updated_at": "2026-04-22T16:13:30Z",
   "base_url": "https://api.chshapi.cn",
   "status": {
     "HeaderNavModules": "",
@@ -99,7 +99,7 @@
     "passkey_origins": "https://api.chshapi.cn",
     "passkey_rp_id": "api.chshapi.cn",
     "passkey_user_verification": "required",
-    "price": 0.04,
+    "price": 0.06,
     "privacy_policy_enabled": false,
     "quota_display_type": "USD",
     "quota_per_unit": 500000,
@@ -123,13 +123,13 @@
   },
   "usage": {
     "total_granted": 0,
-    "total_used": 43948870,
-    "total_available": -43948870,
+    "total_used": 44409134,
+    "total_available": -44409134,
     "unlimited_quota": true,
     "expires_at": 0
   },
   "stats": {
-    "today_quota": 43948870,
-    "month_quota": 43948870
+    "today_quota": 44409134,
+    "month_quota": 44409134
   }
 }
