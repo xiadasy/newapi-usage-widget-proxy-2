@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T22:48:30Z",
+  "updated_at": "2026-04-22T23:45:55Z",
   "base_url": "https://api.chshapi.cn",
   "status": {
     "HeaderNavModules": "",
@@ -28,6 +28,13 @@
         "id": 1,
         "route": "服务器2",
         "url": "https://api.chshapi.cn"
+      },
+      {
+        "color": "purple",
+        "description": "腾讯云-上海",
+        "id": 2,
+        "route": "赞助专属线路",
+        "url": "https://api.aichsh.cn"
       }
     ],
     "api_info_enabled": true,
