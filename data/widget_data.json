@@ -1,0 +1,16 @@
+{
+  "updated_at": "",
+  "base_url": "",
+  "status": {},
+  "usage": {
+    "total_granted": 0,
+    "total_used": 0,
+    "total_available": 0,
+    "unlimited_quota": false,
+    "expires_at": 0
+  },
+  "stats": {
+    "today_quota": 0,
+    "month_quota": 0
+  }
+}
