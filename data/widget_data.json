@@ -1,16 +1,135 @@
 {
-  "updated_at": "",
-  "base_url": "",
-  "status": {},
+  "updated_at": "2026-04-22T13:58:50Z",
+  "base_url": "https://api.chshapi.cn",
+  "status": {
+    "HeaderNavModules": "",
+    "SidebarModulesAdmin": "",
+    "announcements": [
+      {
+        "content": "  今晚23:59分赞助套餐下架，所有模型倍率下降，价格提升，可以先屯着额度。新的订阅价格低额度高时间短，适合任务明确时使用。",
+        "extra": "",
+        "id": 2,
+        "publishDate": "2026-04-22T13:05:28.548Z",
+        "type": "default"
+      },
+      {
+        "content": "请务必加入售后群：1101901205\n目前支持codex与其他调用gpt的模型插件。\ncc最近查封厉害，之后再上，每天签到50刀额度左右。\nAnti正在路上coming soon\n教程在：https://t.hk.uy/ccZF\n",
+        "extra": "",
+        "id": 1,
+        "publishDate": "2026-04-21T19:51:26.592Z",
+        "type": "default"
+      }
+    ],
+    "announcements_enabled": true,
+    "api_info": [
+      {
+        "color": "blue",
+        "description": "服务器2",
+        "id": 1,
+        "route": "服务器2",
+        "url": "https://api.chshapi.cn"
+      }
+    ],
+    "api_info_enabled": true,
+    "chats": [
+      {
+        "Cherry Studio": "cherrystudio://providers/api-keys?v=1&data={cherryConfig}"
+      },
+      {
+        "AionUI": "aionui://provider/add?v=1&data={aionuiConfig}"
+      },
+      {
+        "流畅阅读": "fluentread"
+      },
+      {
+        "CC Switch": "ccswitch"
+      },
+      {
+        "Lobe Chat 官方示例": "https://chat-preview.lobehub.com/?settings={\"keyVaults\":{\"openai\":{\"apiKey\":\"{key}\",\"baseURL\":\"{address}/v1\"}}}"
+      },
+      {
+        "AI as Workspace": "https://aiaw.app/set-provider?provider={\"type\":\"openai\",\"settings\":{\"apiKey\":\"{key}\",\"baseURL\":\"{address}/v1\",\"compatibility\":\"strict\"}}"
+      },
+      {
+        "AMA 问天": "ama://set-api-key?server={address}&key={key}"
+      },
+      {
+        "OpenCat": "opencat://team/join?domain={address}&token={key}"
+      }
+    ],
+    "checkin_enabled": true,
+    "custom_currency_exchange_rate": 1,
+    "custom_currency_symbol": "¤",
+    "data_export_default_time": "hour",
+    "default_collapse_sidebar": false,
+    "default_use_auto_group": false,
+    "demo_site_enabled": false,
+    "discord_client_id": "",
+    "discord_oauth": false,
+    "display_in_currency": true,
+    "docs_link": "https://t.hk.uy/ccZF",
+    "email_verification": true,
+    "enable_batch_update": false,
+    "enable_data_export": true,
+    "enable_drawing": true,
+    "enable_task": true,
+    "faq": [
+      {
+        "answer": "有很多作用，比如解释复杂的命令行指令、编写正则表达式、阅读并解释别人写的代码（不生成新代码）、将数据从一种格式（如JSON）转换成另一种（如XML）。这个网站的搭建大模型也帮助我很多。",
+        "id": 1,
+        "question": "大模型除了用来生成代码和论文还可以干什么？"
+      }
+    ],
+    "faq_enabled": true,
+    "footer_html": "",
+    "github_client_id": "Ov23lil4brGzjd9CRlIk",
+    "github_oauth": true,
+    "linuxdo_client_id": "",
+    "linuxdo_minimum_trust_level": 0,
+    "linuxdo_oauth": false,
+    "logo": "",
+    "mj_notify_enabled": false,
+    "oidc_authorization_endpoint": "",
+    "oidc_client_id": "",
+    "oidc_enabled": false,
+    "passkey_allow_insecure": false,
+    "passkey_attachment": "",
+    "passkey_display_name": "监控室大爷模拟器",
+    "passkey_login": false,
+    "passkey_origins": "https://api.chshapi.cn",
+    "passkey_rp_id": "api.chshapi.cn",
+    "passkey_user_verification": "required",
+    "price": 0.04,
+    "privacy_policy_enabled": false,
+    "quota_display_type": "USD",
+    "quota_per_unit": 500000,
+    "self_use_mode_enabled": false,
+    "server_address": "https://api.chshapi.cn",
+    "setup": true,
+    "start_time": 1776793510,
+    "stripe_unit_price": 8,
+    "system_name": "New API",
+    "telegram_bot_name": "",
+    "telegram_oauth": false,
+    "top_up_link": "",
+    "turnstile_check": false,
+    "turnstile_site_key": "",
+    "uptime_kuma_enabled": true,
+    "usd_exchange_rate": 7.3,
+    "user_agreement_enabled": false,
+    "version": "v0.12.14",
+    "wechat_login": false,
+    "wechat_qrcode": ""
+  },
   "usage": {
-    "total_granted": 0,
-    "total_used": 0,
-    "total_available": 0,
-    "unlimited_quota": false,
+    "total_granted": -1421385,
+    "total_used": 14932491,
+    "total_available": -16353876,
+    "unlimited_quota": true,
     "expires_at": 0
   },
   "stats": {
-    "today_quota": 0,
-    "month_quota": 0
+    "today_quota": 17069171,
+    "month_quota": 17069171
   }
 }
