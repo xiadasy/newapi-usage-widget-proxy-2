@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T13:58:50Z",
+  "updated_at": "2026-04-22T14:57:26Z",
   "base_url": "https://api.chshapi.cn",
   "status": {
     "HeaderNavModules": "",
@@ -122,14 +122,14 @@
     "wechat_qrcode": ""
   },
   "usage": {
-    "total_granted": -1421385,
-    "total_used": 14932491,
-    "total_available": -16353876,
+    "total_granted": 0,
+    "total_used": 43948870,
+    "total_available": -43948870,
     "unlimited_quota": true,
     "expires_at": 0
   },
   "stats": {
-    "today_quota": 17069171,
-    "month_quota": 17069171
+    "today_quota": 43948870,
+    "month_quota": 43948870
   }
 }
