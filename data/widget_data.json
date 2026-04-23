@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23T05:17:33Z",
+  "updated_at": "2026-04-23T07:14:03Z",
   "base_url": "https://api.chshapi.cn",
   "status": {
     "HeaderNavModules": "",
@@ -105,7 +105,7 @@
     "passkey_login": false,
     "passkey_origins": "https://api.chshapi.cn",
     "passkey_rp_id": "api.chshapi.cn",
-    "passkey_user_verification": "required",
+    "passkey_user_verification": "preferred",
     "price": 0.06,
     "privacy_policy_enabled": false,
     "quota_display_type": "USD",
