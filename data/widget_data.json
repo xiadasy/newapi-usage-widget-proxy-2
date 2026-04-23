@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23T02:38:47Z",
+  "updated_at": "2026-04-23T05:17:33Z",
   "base_url": "https://api.chshapi.cn",
   "status": {
     "HeaderNavModules": "",
@@ -113,7 +113,7 @@
     "self_use_mode_enabled": false,
     "server_address": "https://api.chshapi.cn",
     "setup": true,
-    "start_time": 1776793510,
+    "start_time": 1776920633,
     "stripe_unit_price": 8,
     "system_name": "New API",
     "telegram_bot_name": "",
