@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T23:45:55Z",
+  "updated_at": "2026-04-23T02:38:47Z",
   "base_url": "https://api.chshapi.cn",
   "status": {
     "HeaderNavModules": "",
@@ -136,7 +136,7 @@
     "expires_at": 0
   },
   "stats": {
-    "today_quota": 44409134,
+    "today_quota": 0,
     "month_quota": 44409134
   }
 }
