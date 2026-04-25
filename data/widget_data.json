@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25T06:57:44Z",
+  "updated_at": "2026-04-25T08:08:58Z",
   "base_url": "https://api.chshapi.cn",
   "status": {
     "HeaderNavModules": "",
@@ -113,7 +113,7 @@
     "self_use_mode_enabled": false,
     "server_address": "https://api.chshapi.cn",
     "setup": true,
-    "start_time": 1777053804,
+    "start_time": 1777104537,
     "stripe_unit_price": 8,
     "system_name": "监控室大爷模拟器",
     "telegram_bot_name": "",
